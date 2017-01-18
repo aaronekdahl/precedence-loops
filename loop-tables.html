@@ -1,0 +1,43 @@
+for (var x = 0; x <= 17; x = x + 2) {			
+  console.log(2 * x + 7);			
+}	
+
+Loop Count	Value of X	 Output			
+    1	          0	          7			
+    2	          2	          11			
+    3	          4	          15			
+    4	          6	          19			
+    5	          8           23			
+    6	          10	        27			
+    7	          12	        31			
+    8	          14	        35			
+    9	          16	        39
+
+-------------------------------------
+					
+var alpha = 'mpeuorwr';		
+var s1 = '';		
+var s2 = '';		
+		
+for (var index = 0; index < alpha.length; index++) {					
+  if (index % 2 == 0) {		
+    s1 = s1 + alpha.substr(index, 1);		
+  } else {		
+    s2 = s2 + alpha.substr(index, 1);		
+  }		
+}		
+console.log(s1 + s2);		
+					
+Loop Count	Value of Index	Value of S1	Output	Value of S2	Output
+    1	            0	
+    2	            1
+    3	            2
+    4	            3
+    5	            4
+    6	            5
+    7	            6	
+    8	            7
+    9	            8				
+			            
+                  s1 = meow		s2 = purr
+					result of console.log(s1 + s2) = meowpurr	
